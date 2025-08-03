@@ -1,4 +1,5 @@
 import Button from './Button';
+import '../css/Extension.css';
 
 function Extension({ name }) {
   return (
@@ -11,6 +12,10 @@ function Extension({ name }) {
         vel maleficia?
       </p>
       <Button name={'Remove'} />
+      <label className="switch">
+        <input type="checkbox" />
+        <span className="slider round"></span>
+      </label>
     </div>
   );
 }
